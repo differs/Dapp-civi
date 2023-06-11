@@ -4,21 +4,21 @@ import Carousel from 'react-bootstrap/Carousel';
 var testimonialsData = [
   {
     id: 1,
-    name: 'John Wills',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur non earum repudiandae ipsa reprehenderit quaerat, quo a cupiditate, voluptatibus voluptates, dolores nam accusantium error, modi iure itaque totam labore.',
-    designation: 'Manager'
+    name: 'Elon Musk',
+    description: 'It is a good idea to build a global real-time online game, and it is also an important means for future games to attract players. Our star link network can realize game links of less than 50ms for global players.',
+    designation: 'Founder of Starlink and SpaceX'
   },
   {
     id: 2,
-    name: 'Jasmine Perry',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, magni fugiat eveniet minus perspiciatis! Nostrum laborum maxime consequuntur repellat nam magni, quae incidunt distinctio enim itaque eligendi laboriosam, quod, ad!',
-    designation: 'Accountant'
+    name: 'Markus Harder',
+    description: 'We have the best translation engine in the world, using advanced artificial intelligence translation, we can provide text translation and real-time voice communication for players in different languages around the world in real time!',
+    designation: 'CFO of DeepL'
   },
   {
     id: 3,
-    name: 'Rocky Johnson',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium facilis optio porro omnis alias eaque corporis error est ut, reprehenderit quae asperiores illum quo voluptates debitis non. Repellat fugit, asperiores?',
-    designation: 'CEO'
+    name: 'Timothy Dean Sweeney',
+    description: 'The best 3D game engine in the world is the solid backing for your content creation. Web3 games are our future focus. We will provide the adaptation of the game engine to WEB3, and provide services for excellent games to be put on the EPIC GAME STORE .',
+    designation: 'Founder and CEO of Epic Games'
   }
 ]
 
@@ -27,8 +27,8 @@ function AppTestimonials() {
     <section id="testimonials" className="testimonials-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Client testimonials</h2>
-          <div className="subtitle">what client says about us</div>
+          <h2>Partner testimonials</h2>
+          <div className="subtitle">what partner says about us</div>
         </div>
         <Carousel controls={false}>
           {

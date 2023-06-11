@@ -43,7 +43,7 @@ function AppContact() {
           <ul>
             <li>
               <i className="fas fa-envelope"></i>
-              hello@domain.com
+              originofcivilization@gamil.com
             </li>
             <li>
               <i className="fas fa-phone"></i>

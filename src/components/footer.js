@@ -23,12 +23,21 @@ function AppFooter() {
 
   return (
     <Container fluid>
-      <div className="copyright">&copy; 2022 Corporate. All Right Reserved.</div>
+      <div className="copyright">&copy; 2023 Origin of Civilization. All Right Reserved.</div>
       <div className="socials">
         <ul>
-          <li><a href="https://www.facebook.com"><i className="fab fa-facebook-f"></i></a></li>
+        {/* <FontAwesomeIcon icon="fa-brands fa-github" spin style={{color: "#041025",}} /> */}
+          <li><a href="https://github.com"><i className="fab fa-github"></i></a></li>
+          <li><a href="https://github.com"><i className="fab fa-youtube"></i></a></li>
+          <li><a href="https://github.com"><i className="fab fa-instagram"></i></a></li>
+          <li><a href="https://github.com"><i className="fab fa-telegram"></i></a></li>
+
+
+
+
+          {/* <li><a href="https://www.facebook.com"><i className="fab fa-facebook-f"></i></a></li> */}
           <li><a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.linkedin.com"><i className="fab fa-linkedin-in"></i></a></li>
+          {/* <li><a href="https://www.linkedin.com"><i className="fab fa-linkedin-in"></i></a></li> */}
         </ul>
       </div>
       {

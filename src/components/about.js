@@ -8,8 +8,12 @@ import img1 from '../assets/images/img1.jpg';
 
 function AppAbout() {
   const html = 80;
-  const responsive = 95;
+  const responsive = 12;
   const photoshop = 60;
+  const Solidity = 50;
+  const UnrealEngine = 70;
+  const Blender_C4D = 40;
+  const DeepL = 66;
 
   return (
     <section id="about" className="block about-block">
@@ -23,20 +27,26 @@ function AppAbout() {
             <Image src={img1} />
           </Col>
           <Col sm={6}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
+            <p>Origins of Civilization is a game!</p>
+            <p>Developed on Unreal Engine.</p>
             <div className='progress-block'>
-              <h4>HTML / CSS / Javascript</h4>
-              <ProgressBar now={html} label={`${html}%`} />
+              <h4>C++ / Rust / Solidity</h4>
+              <ProgressBar now={Solidity} label={`${Solidity}%`} />
             </div>
             <div className='progress-block'>
-              <h4>responsive</h4>
-              <ProgressBar now={responsive} label={`${responsive}%`} />
+              <h4>Unreal Engine / React Native</h4>
+              <ProgressBar now={UnrealEngine} label={`${UnrealEngine}%`} />
             </div>
             <div className='progress-block'>
-              <h4>Photoshop</h4>
-              <ProgressBar now={photoshop} label={`${photoshop}%`} />
+              <h4>Blender / C4D</h4>
+              <ProgressBar now={Blender_C4D} label={`${Blender_C4D}%`} />
             </div>
+
+            <div className='progress-block'>
+              <h4>DeepL</h4>
+              <ProgressBar now={DeepL} label={`${DeepL}%`} />
+            </div>
+
           </Col>
         </Row>
       </Container>
