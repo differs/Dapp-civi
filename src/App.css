@@ -400,8 +400,9 @@ textarea {
   font-weight: 600;
   height: auto;
   padding: 0;
-  font-size: 22px;
+  font-size: 15px;
   line-height: 1.6;
+  vertical-align: middle;
 }
 
 #header .navbar-collapse {
