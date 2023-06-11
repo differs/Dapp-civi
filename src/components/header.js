@@ -26,7 +26,7 @@ function AppHeader() {
             <Nav.Link href="#works">Works</Nav.Link>
             <Nav.Link href="#teams">Teams</Nav.Link>
             <Nav.Link href="#testimonials">Testimonials</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
             <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Dropdown >

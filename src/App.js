@@ -26,7 +26,7 @@ function App() {
         <AppWorks />
         <AppTeams />
         <AppTestimonials />
-        <AppPricing />
+        {/* <AppPricing /> */}
         <AppBlog />
         <AppContact />
       </main>
