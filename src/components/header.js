@@ -35,7 +35,15 @@ function AppHeader() {
                   <DropdownItem href="#">Learn React</DropdownItem>
                   <DropdownItem href="#">Documentation</DropdownItem>
                   <DropdownItem href="#">Tutorials</DropdownItem>
-                  <DropdownItem href="#">Courses</DropdownItem>
+                  <DropdownItem href="#">Paper_en</DropdownItem>
+                  <DropdownItem href="#">Paper_zh</DropdownItem>
+                  <DropdownItem href="#">Paper_ru</DropdownItem>
+                  <DropdownItem href="#">Paper_ko</DropdownItem>
+                  <DropdownItem href="#">Paper_jp</DropdownItem>
+                  <DropdownItem href="#">Paper_vn</DropdownItem>
+                  <DropdownItem href="#">Paper_de</DropdownItem>
+                  <DropdownItem href="#">Paper_Arabic</DropdownItem>
+
                 </DropdownMenu>
             </Dropdown>
 
