@@ -30,7 +30,7 @@ function AppHeader() {
             <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Dropdown >
-                <DropdownToggle >Docs</DropdownToggle>
+                <DropdownToggle class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton">Docs</DropdownToggle>
                 <DropdownMenu >
                   <DropdownItem href="#">Learn React</DropdownItem>
                   <DropdownItem href="#">Documentation</DropdownItem>
