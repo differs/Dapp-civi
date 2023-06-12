@@ -16,7 +16,7 @@ html {
 
 body {
   color: #333;
-  background: #fff;
+  background: #a0a0a0;
   font: 16px/1.6 "Muli", sans-serif;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
@@ -135,7 +135,7 @@ ul,
 }
 
 .btn.btn-primary {
-  background: #f64b4b;
+  background: #0f0d0d;
   border-color: #f64b4b;
   padding: 13px 35px;
   font-size: 14px;
@@ -383,25 +383,29 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: #fff;
+  background: #272424;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
+  color: #fff;
+
 }
 
 #header .navbar {
   padding: 0;
   justify-content: space-between;
   background: none !important;
+  /* background-color: #d10a0a; */
 }
 
 #header .navbar-brand {
-  color: #f64b4b;
+  color: #242424;
   text-transform: uppercase;
   font-weight: 600;
   height: auto;
   padding: 0;
   font-size: 15px;
   line-height: 1.6;
+  color: #ffffff;
   vertical-align: middle;
 }
 
@@ -426,7 +430,7 @@ textarea {
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
   background: none;
-  color: #f64b4b;
+  color: #858383;
 }
 
 #header .navbar-collapse a:hover:before,
@@ -450,7 +454,7 @@ textarea {
 }
 
 #footer {
-  background: #f64b4b;
+  background: #1d1a1a;
   padding: 50px 0;
   color: #fff;
   text-align: center;
