@@ -16,7 +16,7 @@ function AppHeader() {
           <img src={LOGO} width={25} height={25}  />
           
           Origin of Civilization
-          </Navbar.Brand>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -35,7 +35,7 @@ function AppHeader() {
             <Dropdown >
                 <DropdownToggle class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton">Docs</DropdownToggle>
                 <DropdownMenu >
-                  <DropdownItem href="#">Learn React</DropdownItem>
+                  {/* <DropdownItem href="#">Learn React</DropdownItem> */}
                   <DropdownItem href="#">Documentation</DropdownItem>
                   <DropdownItem href="#">Tutorials</DropdownItem>
                   <DropdownItem href="#">Paper_en</DropdownItem>
@@ -45,7 +45,7 @@ function AppHeader() {
                   <DropdownItem href="#">Paper_jp</DropdownItem>
                   <DropdownItem href="#">Paper_vn</DropdownItem>
                   <DropdownItem href="#">Paper_de</DropdownItem>
-                  <DropdownItem href="#">Paper_Arabic</DropdownItem>
+                  {/* <DropdownItem href="#">Paper_Arabic</DropdownItem> */}
 
                 </DropdownMenu>
             </Dropdown>
