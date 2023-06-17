@@ -399,7 +399,6 @@ textarea {
 }
 
 #header .navbar-brand {
-  color: #242424;
   text-transform: uppercase;
   font-weight: 600;
   height: auto;
@@ -407,27 +406,27 @@ textarea {
   font-size: 15px;
   line-height: 1.6;
   vertical-align: middle;
+  color: #d1c3c3;
+
 }
 
 #header .navbar-collapse {
   flex-grow: 0;
-  /* color: #ffffff; */
-
 }
 
 #header .navbar-collapse .navbar-nav {
   font-size: 14px;
   line-height: 20px;
-  /* color: #ffffff; */
-
 }
 
 #header .navbar-collapse a:last-child {
   padding-right: 0;
+  color: #d1c3c3;
+
 }
 
 #header .navbar-collapse a {
-  color: #524e4e;
+  color: #d1c3c3;
   position: relative;
 }
 
