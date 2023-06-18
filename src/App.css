@@ -693,6 +693,8 @@ textarea {
   color: #fff;
 }
 
+
+
 .testimonials-block:before {
   content: '';
   background: rgba(0, 0, 0, 0.8);
@@ -752,6 +754,16 @@ textarea {
 .testimonials-block .carousel-indicators .active {
   background: #f64b4b;
 }
+
+.timeline-block {
+  padding: 90px 0 70px;
+  background-position: 50% 0; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('assets/images/bg-testimonial.jpg');
+  /* position: relative; */
+}
+
 
 .pricing-block .row {
   align-items: center;

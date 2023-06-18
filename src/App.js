@@ -12,6 +12,7 @@ import AppPricing from './components/pricing';
 import AppBlog from './components/blog';
 import AppContact from './components/contact';
 import AppFooter from './components/footer';
+import Timeline from './components/timeline';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <AppWorks />
         <AppTeams />
         <AppTestimonials />
+        <Timeline />
         {/* <AppPricing /> */}
         <AppBlog />
         <AppContact />
