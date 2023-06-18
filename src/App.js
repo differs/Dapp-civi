@@ -22,13 +22,11 @@ function App() {
       </header>
       <main>
         <AppHero />
-        <AppAbout />
         <AppServices />
         <AppWorks />
         <AppTeams />
         <AppTestimonials />
         <Timeline />
-        {/* <AppPricing /> */}
         <AppBlog />
         <AppContact />
       </main>
