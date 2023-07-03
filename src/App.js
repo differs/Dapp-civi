@@ -23,7 +23,7 @@ function App() {
       <main>
         <AppHero />
         <AppServices />
-        <AppWorks />
+        {/* <AppWorks /> */}
         <AppTeams />
         <AppTestimonials />
         <Timeline />

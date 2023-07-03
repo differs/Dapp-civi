@@ -23,10 +23,11 @@ const Timeline = () => {
                         icon = {<FontAwesomeIcon icon={faTwitter} size="2x" spin/>}
             
                         >
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                            <h2 className="vertical-timeline-element-subtitle">Project preparation</h2>
+                            <h4 className="vertical-timeline-element-subtitle">Objectives</h4>
+
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                Determine the game type and basic gameplay, create the project folder and version control system.
                             </p>
                         </VerticalTimelineElement>
 
@@ -37,10 +38,10 @@ const Timeline = () => {
                         icon = {<FontAwesomeIcon icon={faInstagram} size="2x" spin/>}
             
                         >
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                            <h3 className="vertical-timeline-element-title">Basic game functionality</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Objectives</h4>
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                Implement the basic functions of the game, including character control, collision detection and basic game rules.
                             </p>
                         </VerticalTimelineElement>
 
@@ -51,10 +52,10 @@ const Timeline = () => {
                         icon = {<FontAwesomeIcon icon={faYoutube} size="2x" spin/>}
             
                         >
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                            <h3 className="vertical-timeline-element-title">Game level design</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Objectives</h4>
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                            Design and create the game's levels, including map layout, enemy positions and props, etc.
                             </p>
                         </VerticalTimelineElement>
 
@@ -65,10 +66,10 @@ const Timeline = () => {
                         icon = {<FontAwesomeIcon icon={faGoogle} size="2x" spin/>}
             
                         >
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                            <h3 className="vertical-timeline-element-title">Game beautification</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Objectives</h4>
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                To enhance the visual and auditory effects of the game and enhance the game experience.
                             </p>
                         </VerticalTimelineElement>
 
@@ -79,10 +80,10 @@ const Timeline = () => {
                         icon = {<FontAwesomeIcon icon={faGithub} size="2x" spin/>}
             
                         >
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                            <h3 className="vertical-timeline-element-title">Game Testing and Optimization</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Objectives</h4>
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                Test the game features and performance, and make necessary optimizations.
                             </p>
                         </VerticalTimelineElement>
 
@@ -93,14 +94,14 @@ const Timeline = () => {
                         icon = {<FontAwesomeIcon icon={faAws} size="2x" spin/>}
             
                         >
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                            <h3 className="vertical-timeline-element-title"> Release and Marketing</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Objectives</h4>
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                Publish the game to the appropriate platform and carry out promotion and marketing.
                             </p>
                         </VerticalTimelineElement>
 
-                        <VerticalTimelineElement className="vertical-timeline-element--education"
+                        {/* <VerticalTimelineElement className="vertical-timeline-element--education"
                         iconStyle={{background: '#000', color: '#fff'}}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2023 - 06"
@@ -112,7 +113,7 @@ const Timeline = () => {
                             <p>
                                 Creative Direction, User Experience, Visual Design, Project Management, Team Leading
                             </p>
-                        </VerticalTimelineElement>
+                        </VerticalTimelineElement> */}
 
                     </VerticalTimeline>
 

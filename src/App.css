@@ -135,12 +135,13 @@ ul,
 }
 
 .btn.btn-primary {
-  background: #8d5555;
-  border-color: #f64b4b;
+  background: #756565;
+  /* border-color: #f64b4b; */
   padding: 13px 35px;
   font-size: 14px;
   line-height: 8px;
   font-weight: 600;
+  /* color: #333; */
   text-transform: uppercase;
   transition: background 0.3s linear, color 0.3s linear;
   -webkit-transition: background 0.3s linear, color 0.3s linear;
@@ -148,15 +149,24 @@ ul,
 
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-  background: #fff;
+  /* background: #272323; */
   border-color: #f64b4b;
   color: #f64b4b;
 }
 
 .btn.btn-primary .fas {
+  background: #272323;
+
   margin: 0 0 0 6px;
   font-size: 15px;
   
+}
+
+.dropdown-link {
+  background-color: #080606;
+}
+.dropdown-link a {
+  color: #050303;
 }
 
 input[type=text],
@@ -358,14 +368,16 @@ textarea {
 
 .pagination>li>a:hover {
   background: #f64b4b;
-  color: #fff;
+  /* color: #fff; */
+  color: #1b1717;
+
   border-color: #f64b4b;
 }
 
 .pagetitle {
   margin: 80px 0 0;
   background: #f64b4b;
-  color: #fff;
+  color: #1b1717;
   padding: 50px 0;
 }
 
@@ -374,7 +386,7 @@ textarea {
 }
 
 .pagetitle .subtitle {
-  color: #e6e6e6;
+  color: #1b1717;
 }
 
 #header {
@@ -384,7 +396,7 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: #423535;
+  background: #f72bca;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
   /* color: #fff; */
@@ -407,6 +419,18 @@ textarea {
   line-height: 1.6;
   vertical-align: middle;
   color: #d1c3c3;
+
+}
+
+#header .navbar-brand a {
+  text-transform: uppercase;
+  font-weight: 600;
+  height: auto;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  vertical-align: middle;
+  color: #292424;
 
 }
 
@@ -445,7 +469,7 @@ textarea {
 
 #header .navbar-collapse a:before {
   content: '';
-  background: #f64b4b;
+  background: #f72bca;
   height: 1px;
   position: absolute;
   bottom: 7px;
@@ -457,7 +481,7 @@ textarea {
 }
 
 #footer {
-  background: #423535;
+  background: #f72bca;
   padding: 50px 0;
   color: #fff;
   text-align: center;
@@ -522,6 +546,10 @@ textarea {
   transition: width 0.3s linear;
 }
 
+.services-block {
+  background-color: #f72bca;
+
+}
 .services-block .icon {
   width: 60px;
   height: 60px;
@@ -585,7 +613,7 @@ textarea {
   right: 0;
   -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-  background: rgba(0, 0, 0, 0.8);
+  background: #f72bca;
   padding: 10px;
   color: #fff;
 }
@@ -636,6 +664,10 @@ textarea {
   padding: 8px 15px 10px;
 }
 
+.teams-block {
+  background-color: #f72bca;
+
+}
 .teams-block div[class*="col"] {
   margin: 0 0 50px;
 }
@@ -669,7 +701,7 @@ textarea {
   transition: all 0.3s linear;
   -webkit-transition: all 0.2s linear;
   vertical-align: middle;
-  background: rgba(246, 75, 75, 0.9);
+  background: #f72bca;
   opacity: 0;
 }
 
@@ -690,14 +722,13 @@ textarea {
   background-attachment: fixed;
   background-image: url('assets/images/bg-testimonial.jpg');
   position: relative;
-  color: #fff;
+  
 }
 
 
 
 .testimonials-block:before {
   content: '';
-  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -713,7 +744,7 @@ textarea {
 }
 
 .testimonials-block .subtitle {
-  color: #cccccc;
+  color: #111010;
 }
 
 .testimonials-block blockquote {
@@ -762,6 +793,8 @@ textarea {
   background-attachment: fixed;
   background-image: url('assets/images/bg-testimonial.jpg');
   /* position: relative; */
+  color: #f72bca;
+
 }
 
 
@@ -835,6 +868,8 @@ textarea {
 
 .blog-block {
   background: #f2f2f2;
+  background-color: #f72bca;
+
 }
 
 .blog-block.content-block .holder:hover {
@@ -927,6 +962,8 @@ textarea {
 
 .contact-block {
   position: relative;
+  background-color: #f72bca;
+
 }
 
 .contact-block .row {

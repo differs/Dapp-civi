@@ -27,11 +27,11 @@ function AppFooter() {
       <div className="socials">
         <ul>
         {/* <FontAwesomeIcon icon="fa-brands fa-github" spin style={{color: "#041025",}} /> */}
-          <li><a href="https://github.com/differs/hackathon-2023-summer"><i className="fab fa-github"></i></a></li>
-          <li><a href="https://www.youtube.com/@OriginofCivilization/playlists"><i className="fab fa-youtube"></i></a></li>
-          <li><a href="https://github.com"><i class="fa-brands fa-weixin"></i></a></li>
-          <li><a href="https://github.com"><i className="fab fa-telegram"></i></a></li>
-          <li><a href="https://twitter.com/OriginOfCivi"><i className="fab fa-twitter"></i></a></li>
+          <li><a href="https://github.com/differs" target='_blank' rel="noreferrer"><i className="fab fa-github"></i></a></li>
+          <li><a href="https://www.youtube.com/@OriginofCivilization/playlists" target='_blank' rel="noreferrer"><i className="fab fa-youtube"></i></a></li>
+          <li><a href="https://link.civi.ink" target='_blank' rel="noreferrer"><i class="fa-brands fa-weixin"></i></a></li>
+          <li><a href="https://t.me/Origin_of_Civilization" target='_blank' rel="noreferrer"><i className="fab fa-telegram"></i></a></li>
+          <li><a href="https://twitter.com/Origin_Of_Civil" target='_blank' rel="noreferrer"><i className="fab fa-twitter"></i></a></li>
         </ul>
       </div>
       {
